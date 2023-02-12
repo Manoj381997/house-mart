@@ -139,23 +139,14 @@ button {
   font-weight: 800;
 }
 
-.navbar {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  height: 85px;
-  background-color: #ffffff;
-  z-index: 1000;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 .navbarNav {
+  background-color: #000000;
   width: 100%;
-  margin-top: 0.75rem;
+  /* margin-top: 0.75rem; */
+  margin-bottom: 12px;
   overflow-y: hidden;
+  display: flex;
+  justify-content: end;
 }
 
 .navbarListItems {
@@ -181,7 +172,7 @@ button {
   color: #8f8f8f;
 }
 .navbarListItemNameActive {
-  color: #2c2c2c;
+  color: deeppink;
 }
 
 .nameInput {
